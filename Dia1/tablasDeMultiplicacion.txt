@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+int main(){
+   
+for (numI=0,numI<=10,numI++){
+	for (numJ=0,numJ<=10,numJ++)
+		print(numI*numJ)
+}
+return 0;
+
+}
