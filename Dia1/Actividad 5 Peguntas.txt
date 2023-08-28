@@ -1,0 +1,35 @@
+Actividad 5: Peguntas 
+Que es una red?
+R: Un conjunto de nodos 
+Que es el modelo TCP/IP?
+R: el protocolo de comunicación y transmisión de datos
+Que es una IP
+R: dirección única de identificación dentro de una red 
+Que es el protocolo TCP
+R: protocolo de transferencia de datos
+Dentro del protocolo TCP que es el protocolo http
+R: 
+Puerto de protocolo http
+R:Hyper text transfer protocol
+Puerto de protocolo HTTPS
+R:Hyper text transfer  protocol security 
+Diferencias entre HTTP y HTTPS
+R: un tiene certificados de seguridad la otra no 
+Qué significa el modelo cliente servidor 
+R: la capacidad de dar el servicio a diferentes clientes 
+Que es una petición (request)
+R: una solicitud al servidor 
+Que es una respuesta (response)?
+R: una respuesta del servidor al usuario/cliente sobre lo que pidió
+Secciones de una peticion
+R:
+Secciones de mi petición
+R:
+El código de respuesta 404 y 500 a que se refieren 
+R: el servidor no se encuentra, algo fallo en la página web 
+Lenguajes de back end
+R:Python, 
+Lenguajes de front end
+R:React, node js
+Que es burp suite 
+R: una certificación práctica
