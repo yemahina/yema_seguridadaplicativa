@@ -1,0 +1,30 @@
+#include<stdio.h>
+
+int main(){
+   numI=0;
+   num3=3;
+   num5=5;
+   num15=15;
+for (numI=0,numI<=100,numI++)
+	{
+	if (numI=num3)
+		{
+		print("fizz")
+		}
+	else (numI=num5)
+		{
+		print("buzz")
+		}
+	else (numI=num15)
+		{
+		print("fizzbuzz")
+		}
+	else 
+		{
+		print("numI")
+		}
+return 0;
+	}
+
+}
+
