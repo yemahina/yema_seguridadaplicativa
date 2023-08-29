@@ -1,0 +1,12 @@
+GNU nano 7.2                               script1.sh                                        
+
+echo "hola: " $1;
+
+sudo useradd -m -s /bin/zsh -c "act2" $1 -p $1;
+
+
+echo "esta listo el usuario" $1 "y contraseña" $1;
+
+
+
+
