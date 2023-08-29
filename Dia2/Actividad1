@@ -1,0 +1,3 @@
+echo "hola: " $1;
+
+sudo useradd $1;
