@@ -1,0 +1,23 @@
+def func_especial():
+operS = input("Que operacion quieres utilizar: 1 = Suma, 2 = Resta, 3 = Multiplicacion, 4 = Division\n")
+
+a = float(input("introduce tu primer numero a operar "))
+b = float(input("introduce tu segundo numero a operar "))
+    
+opcion = operS 
+if (opcion == "1"):
+      resultado = a+b
+      print("resultado: ",resultado)
+elif(opcion == "2"):
+      resultado = a-b
+      print("resultado: ",resultado )
+elif(opcion == "3"):
+      resultado = a*b
+      print("resultado: ",resultado)
+elif(opcion == "4"):
+      resultado = a/b
+      print("resultado: ",resultado)
+else: 
+      print("Opcion Inválida ")
+    
+func_especial()
