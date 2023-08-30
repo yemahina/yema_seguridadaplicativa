@@ -1,0 +1,87 @@
+
+dic = {
+  "juan":8,
+  "Giselle":9,
+  "Damian1":5,
+  "Ricardo":6,
+  "Yaotzin":6,
+  "Erick":7,
+  "Mario":8,
+  "Edgar":9,
+  "Fernanda":5,
+  "Daniel":6,
+  "Jesus":7,
+  "Damian":8,
+  "Yemahina":6,
+  "Eduardo": 9,
+  "Bryan": 9,
+  "Mariano": 10,
+  "Alberto":8
+}
+
+
+
+def mayor():
+  for cal in dic:
+   if (dic[cal] >= 10):
+      print("estudiante aprobado ",cal,"calificacion: ", dic[cal])
+mayor()
+
+def mayor():
+  for cal in dic:
+   if (dic[cal] > 1 and dic[cal] < 6):
+      print("estudiantes con mayor calificacion", cal)
+mayor()
+   
+def menor():
+  for cal in dic:
+   if (dic[cal] <= 5):
+      print("estudiante reprobado", cal)
+menor()
+def menor():  
+  for cal in dic:
+    if(dic[cal] > 1 and dic[cal] < 6):
+      print("estudiantes con menor calificacion", cal, "calificacion: ", dic[cal])
+menor()
+
+def promedio():
+  promedio = 0
+  for cal in dic:
+    print(dic[cal])
+    print(len(dic))
+    print("fd")
+    # sums = sum(dic[cal])
+    promedio = sum(dic[cal])/len(dic)
+    print("el promedio es ", promedio)
+promedio()
+
+def promedio(): 
+  a=0
+  for cal in dic:
+    # print(dic[cal])
+    # print(len(dic))
+    a = a +  int(dic[cal])/len(dic)
+  print("el promedio es ", a)
+promedio()
+
+# def promedio(): 
+#   for cal in dic:
+#     promedio = sum(dic)/len(dic)
+#     print("el promedio es ", promedio)
+# promedio()
+
+
+
+# semana_dicci = {
+#   "1": "Lunes",
+#   "2": "Martes",
+#   "3": "Miercoles",
+#   "4": "Jueves",
+#   "S": "Viernes",
+#   "6": "Sabado",
+#   "7": "Domingo"
+# }
+# semana_dicci["1"]
+
+# for dia in semana_dicci:
+#   print (semana_dicci[dia])
